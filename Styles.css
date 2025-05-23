@@ -1,0 +1,59 @@
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(218, 23%, 16%);
+}
+
+.advice-id{
+    color:  hsl(150, 100%, 66%);
+}
+
+.advice-app-container{
+    height: auto;
+    width: 330px; 
+    border-radius: 10px;
+    background-color:  hsl(217, 19%, 24%);
+}
+
+.advice-app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 1.1rem;
+}
+
+.advice-quote{
+    font-size: 28px;
+    text-align: center;
+    color:  hsl(193, 38%, 86%);
+}
+
+.pattern-divider-image{
+    padding-bottom: 20px;
+}
+.pattern-divider-image img{
+    width: 100%;
+}
+
+.advice-app-generate-btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(150, 100%, 66%);
+    position: relative;
+    bottom: 3.6%;
+    cursor: pointer;
+}
+
+.advice-app-generate-btn:hover{
+    box-shadow: 3px 3px 30px 2px hsl(150, 100%, 66%);
+}
+
